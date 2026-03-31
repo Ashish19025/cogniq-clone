@@ -1,7 +1,6 @@
-Here is the deployment Link = cogniq-clone.vercel.app
-
-
 # Cogniq AI - Frontend Clone
+
+**🌍 Live Deployment:** [cogniq-clone.vercel.app](https://cogniq-clone.vercel.app/)
 
 A comprehensive, high-fidelity React frontend clone of the Cogniq AI website. This project beautifully replicates the modern, deep-purple AI agency styling using a modern tech stack.
 
