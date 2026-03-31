@@ -56,7 +56,7 @@ export default function Contact() {
           <div className="w-full md:w-[45%]">
             <div className="rounded-3xl overflow-hidden h-full min-h-[500px]">
               <img 
-                src="https://images.unsplash.com/photo-1620825937374-87fc7d6aaffa?q=80&w=1000&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1593376853899-fbb47a057fa0?q=80&w=715&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                 alt="AI Microchip Circuit" 
                 className="w-full h-full object-cover"
                 style={{ filter: 'hue-rotate(240deg) saturate(1.5)' }} 
@@ -74,7 +74,7 @@ export default function Contact() {
               Fill out the form below and our team will get back to you shortly
             </p>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <input 
                   type="text" 
@@ -82,7 +82,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   placeholder="Name" 
-                  className="w-full px-5 py-3.5 rounded-xl border border-[#E5E7EB] bg-white text-[13px] focus:outline-none focus:ring-2 focus:ring-[#5B3EE8]/20 focus:border-[#5B3EE8] transition-all"
+                  className="w-full px-5 py-4 rounded-xl border border-[#E5E7EB] bg-white text-[14px] focus:outline-none focus:ring-2 focus:ring-[#4B28C4]/20 focus:border-[#4B28C4] transition-all"
                   required
                 />
               </div>
@@ -93,7 +93,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="Email" 
-                  className="w-full px-5 py-3.5 rounded-xl border border-[#E5E7EB] bg-white text-[13px] focus:outline-none focus:ring-2 focus:ring-[#5B3EE8]/20 focus:border-[#5B3EE8] transition-all"
+                  className="w-full px-5 py-4 rounded-xl border border-[#E5E7EB] bg-white text-[14px] focus:outline-none focus:ring-2 focus:ring-[#4B28C4]/20 focus:border-[#4B28C4] transition-all"
                   required
                 />
               </div>
@@ -102,7 +102,7 @@ export default function Contact() {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full px-5 py-3.5 rounded-xl border border-[#E5E7EB] bg-white text-[13px] text-gray-500 appearance-none focus:outline-none focus:ring-2 focus:ring-[#5B3EE8]/20 focus:border-[#5B3EE8] transition-all cursor-pointer"
+                  className="w-full px-5 py-4 rounded-xl border border-[#E5E7EB] bg-white text-[14px] text-gray-500 appearance-none focus:outline-none focus:ring-2 focus:ring-[#4B28C4]/20 focus:border-[#4B28C4] transition-all cursor-pointer"
                   required
                 >
                   <option value="" disabled hidden>Select your subject</option>
@@ -111,7 +111,7 @@ export default function Contact() {
                   <option value="support">Support</option>
                 </select>
                 <div className="absolute inset-y-0 right-0 flex items-center pr-5 pointer-events-none text-gray-400">
-                  <ChevronDown className="w-4 h-4" />
+                  <ChevronDown className="w-4 h-4 text-[#4B28C4]" />
                 </div>
               </div>
               <div>
@@ -121,17 +121,18 @@ export default function Contact() {
                   onChange={handleChange}
                   placeholder="Tell us about your project or question..." 
                   rows="4"
-                  className="w-full px-5 py-3.5 rounded-xl border border-[#E5E7EB] bg-white text-[13px] focus:outline-none focus:ring-2 focus:ring-[#5B3EE8]/20 focus:border-[#5B3EE8] transition-all resize-none"
+                  className="w-full px-5 py-4 rounded-xl border border-[#E5E7EB] bg-white text-[14px] focus:outline-none focus:ring-2 focus:ring-[#4B28C4]/20 focus:border-[#4B28C4] transition-all resize-none h-32"
                   required
                 ></textarea>
               </div>
 
               <button 
                 type="submit" 
-                className="w-full bg-[#5B3EE8] hover:bg-[#4B28C4] text-white py-3.5 rounded-xl font-bold transition-all flex items-center justify-center gap-2 shadow-lg shadow-indigo-500/20 text-[13px] mt-2"
+                className="w-full bg-[#5B3EE8] hover:bg-[#4B28C4] text-white py-4 rounded-lg font-bold transition-all flex items-center justify-center gap-2 shadow-sm text-[14px] mt-4"
               >
-                Submit <ArrowRight className="w-4 h-4" />
+                Submit <ArrowRight className="w-4 h-4 font-normal" />
               </button>
+
 
               <div className="text-center mt-6">
                 <p className="text-[12px] text-gray-500 font-medium tracking-wide">
