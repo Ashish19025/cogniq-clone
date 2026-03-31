@@ -13,7 +13,8 @@ const OurLab = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 relative overflow-hidden">    
+      <section className="pt-32 pb-20 relative overflow-hidden">
+        
         {/* Floating Icons Background */}
         <div className="absolute top-24 left-1/4 w-10 h-10 bg-white rounded-full flex shadow-sm items-center justify-center opacity-70">
             <Sparkles className="w-4 h-4 text-[#8B5CF6]" />
