@@ -1,18 +1,71 @@
-# React + Vite
+# Cogniq AI - Frontend Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive, high-fidelity React frontend clone of the Cogniq AI website. This project beautifully replicates the modern, deep-purple AI agency styling using a modern tech stack.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React 18** - UI Framework
+- **Vite** - Lightning-fast frontend build tool
+- **Tailwind CSS v4** - Utility-first styling with inline theme configuration
+- **React Router DOM v6** - Client-side routing for seamless page transitions
+- **Lucide React** - Clean and modern SVG icons
 
-## React Compiler
+## Pages Included
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Home:** High-conversion landing page with hero, values, automated product showcases, and CTA.
+- **About Us:** Details the mission, approach, and the team structure behind the brand.
+- **Services:** Comprehensive breakdown of AI services, engineering excellence, and workflows.
+- **Our Lab:** Deep-dive into in-house AI developments, betas, and featured lab projects like "PostGenius" and "JobMail AI".
+- **Blogs:** A beautifully laid out masonry grid featuring the latest updates and insights along with mock pagination.
+- **Contact Us:** A fully styled contact form configured beautifully alongside brand imagery.
 
-Note: This will impact Vite dev & build performances.
+## 📦 Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ensure you have [Node.js](https://nodejs.org/) installed (version 16+ recommended).
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ashish19025/cogniq-clone.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd cogniq-clone
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Development Server
+
+Start the local dev server using Vite:
+
+```bash
+npm run dev
+```
+Navigate to `http://localhost:5173` in your browser.
+
+### Building for Production
+
+Compile the optimized static site:
+
+```bash
+npm run build
+```
+
+## 🎨 Styling Features
+
+- **Custom Colors:** The site leverages exact hex values (`#4B28C4`, `#5B3EE8`, `#18113C`, `#F8F9FE`) matching original branding.
+- **Typography:** Uses the 'Plus Jakarta Sans' font family globally.
+- **Layouts:** Extensive usage of responsive generic grid columns, flexboxes, and masonry approximations.
+
+## 📜 License
+
+This project is for educational and portfolio demonstration purposes. All placeholder images are from Unsplash, and brand representations are mimicking a provided design setup.
+
+---
+*Built with ❤️ utilizing React & Tailwind CSS.*
