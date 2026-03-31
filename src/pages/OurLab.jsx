@@ -219,7 +219,7 @@ const OurLab = () => {
 
             {/* Solution Card 2 */}
              <div className="bg-white rounded-4xl overflow-hidden shadow-sm border border-[#F3F4F6] flex flex-col group hover:shadow-md transition-shadow">
-              <div className="relative h-[220px] overflow-hidden bg-[#18113C]">
+              <div className="relative h-55 overflow-hidden bg-[#18113C]">
                  <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop" alt="Code Matrix" className="w-full h-full object-cover opacity-30 group-hover:scale-105 transition-transform duration-700" style={{ filter: 'hue-rotate(-45deg) saturate(2)' }} />
                  <div className="absolute top-6 left-6">
                     <span className="px-3 py-1 text-[10px] font-bold bg-white text-[#18113C] rounded-full shadow-sm">Under Development</span>
@@ -266,7 +266,7 @@ const OurLab = () => {
 
       {/* Final CTA Section */}
       <section className="py-12 pb-32 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative rounded-4xl overflow-hidden shadow-2xl bg-cover bg-center h-[350px] flex items-center justify-center" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1000&auto=format&fit=crop)` }}>
+        <div className="relative rounded-4xl overflow-hidden shadow-2xl bg-cover bg-center h-87.5 flex items-center justify-center" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1000&auto=format&fit=crop)` }}>
           <div className="absolute inset-0 bg-black/70"></div>
           <div className="relative z-10 text-center text-white py-12 px-6 flex flex-col items-center">
             <h2 className="text-3xl md:text-[2.2rem] font-bold mb-4 tracking-tight leading-tight max-w-2xl">
