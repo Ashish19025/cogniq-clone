@@ -20,9 +20,9 @@ export default function Navbar() {
             <Link to="/services" className="text-sm font-semibold text-gray-600 hover:text-[#4B28C4] transition-colors">Services</Link>
             <Link to="/our-lab" className="text-sm font-semibold text-gray-600 hover:text-[#4B28C4] transition-colors">Our Lab</Link>
             <Link to="/blogs" className="text-sm font-semibold text-gray-600 hover:text-[#4B28C4] transition-colors">Blogs</Link>
-            <a href="#contact" className="px-5 py-2.5 rounded-lg bg-[#4B28C4] text-white font-semibold text-sm hover:bg-[#381B94] transition-all">
+            <Link to="/contact" className="px-5 py-2.5 rounded-lg bg-[#4B28C4] text-white font-semibold text-sm hover:bg-[#381B94] transition-all">
               Contact Us
-            </a>
+            </Link>
           </div>
 
           <button 
