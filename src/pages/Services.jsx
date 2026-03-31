@@ -145,7 +145,7 @@ const Services = () => {
         {/* 3 Large Image Cards */}
         <div className="grid md:grid-cols-3 gap-8">
           {/* Card 1 */}
-          <div className="border border-[#F3F4F6] rounded-[2rem] overflow-hidden shadow-sm group bg-white flex flex-col">
+          <div className="border border-[#F3F4F6] rounded-4xl overflow-hidden shadow-sm group bg-white flex flex-col">
             <div className="h-48 overflow-hidden relative">
               <img src="https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=1000&auto=format&fit=crop" alt="AI Customer Service" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -162,7 +162,7 @@ const Services = () => {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="border border-[#F3F4F6] rounded-[2rem] overflow-hidden shadow-sm group bg-white flex flex-col">
+          <div className="border border-[#F3F4F6] rounded-4xl overflow-hidden shadow-sm group bg-white flex flex-col">
             <div className="h-48 overflow-hidden relative">
               <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop" alt="Process Automation" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -179,7 +179,7 @@ const Services = () => {
             </div>
           </div>
           {/* Card 3 */}
-          <div className="border border-[#F3F4F6] rounded-[2rem] overflow-hidden shadow-sm group bg-white flex flex-col">
+          <div className="border border-[#F3F4F6] rounded-4xl overflow-hidden shadow-sm group bg-white flex flex-col">
             <div className="h-48 overflow-hidden relative">
               <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop" alt="Predictive Analytics" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -272,7 +272,7 @@ const Services = () => {
 
       {/* Final CTA Section */}
       <section className="py-12 pb-32 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative rounded-4xl overflow-hidden shadow-2xl bg-cover bg-center h-[400px] flex items-center justify-center" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1000&auto=format&fit=crop)` }}>
+        <div className="relative rounded-4xl overflow-hidden shadow-2xl bg-cover bg-center h-100 flex items-center justify-center" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1000&auto=format&fit=crop)` }}>
           <div className="absolute inset-0 bg-black/60"></div>
           <div className="relative z-10 text-center text-white py-12 px-6 flex flex-col items-center">
             <h2 className="text-3xl md:text-[2.5rem] font-bold mb-4 tracking-tight">
